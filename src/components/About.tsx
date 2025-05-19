@@ -2,6 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Award, Flame, Clock, Users } from 'lucide-react';
+import img11 from '../assets/img11.jpg'
+import img12 from '../assets/img12.jpg'
+import img121 from '../assets/img121.jpg'
+import img15 from '../assets/img15.png'
+import image_1 from '../assets/image_1.jpg'
+import img152 from '../assets/img152.png'
 // import imgAbout from '../assets/image_1.jpg'
 import img2 from "../assets/img2.jpg"
 
@@ -64,7 +70,9 @@ export const About: React.FC = () => {
           >
             <div className="rounded-lg overflow-hidden">
               <img 
+                
                 src={img2}
+                
                 alt="Professional Trainer" 
                 className="w-full h-auto object-cover rounded-lg"
               />
