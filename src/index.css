@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-white antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-barlow font-bold;
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.9) 100%);
+}
+
+.section-spacing {
+  @apply py-16 md:py-24;
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-bold mb-12 relative inline-block;
+}
+
+.section-title::after {
+  content: "";
+  @apply absolute -bottom-2 left-0 w-1/2 h-1 bg-primary;
+}
+
+.service-card {
+  @apply bg-darkgray rounded-lg p-6 transition-all duration-300 hover:shadow-neon-green transform hover:-translate-y-2;
+}
+
+.btn-primary {
+  @apply bg-primary text-black font-bold py-3 px-6 rounded-md transition-all duration-300 hover:shadow-neon-green;
+}
+
+.btn-secondary {
+  @apply bg-transparent border-2 border-primary text-primary font-bold py-3 px-6 rounded-md transition-all duration-300 hover:shadow-neon-green hover:bg-primary hover:text-black;
+}
+
+.pricing-card {
+  @apply bg-darkgray rounded-lg p-8 border-2 border-secondary transition-all duration-300 flex flex-col;
+}
+
+.pricing-card.highlight {
+  @apply border-primary;
+}
+
+.testimonial-card {
+  @apply bg-darkgray p-6 rounded-lg;
+}
+
+.nav-link {
+  @apply relative text-gray-300 text-lg font-medium hover:text-primary transition-colors duration-300;
+}
+
+.nav-link::after {
+  content: "";
+  @apply absolute left-0 -bottom-2 w-0 h-0.5 bg-primary transition-all duration-300;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+  @apply w-full;
+}
+
+.nav-link.active {
+  @apply text-primary;
+}
+
+/* Custom animation classes */
+.glow-on-hover:hover {
+  @apply shadow-neon-green;
+}
+
+.glow-red:hover {
+  @apply shadow-neon-red;
+}
+
+.glow-blue:hover {
+  @apply shadow-neon-blue;
+}
+
+/* Form styles */
+.input-field {
+  @apply bg-secondary border-0 rounded-md p-3 text-white w-full focus:ring-2 focus:ring-primary focus:outline-none;
+}
+
+/* Scroll styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full;
+}
