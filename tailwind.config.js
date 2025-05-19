@@ -21,7 +21,7 @@ export default {
         'neon-red': '0 0 5px #ff3e3e, 0 0 10px #ff3e3e',
         'neon-blue': '0 0 5px #00a2ff, 0 0 10px #00a2ff',
       },
-      backgroundImage: {
+      backgroundImage: { 
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
     },

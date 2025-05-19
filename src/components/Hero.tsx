@@ -1,5 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import backgroundImg from '../assets/backgroundImg.jpg'
+import imgAbout from '../assets/image_1.jpg'
+import img2 from "../assets/img2.jpg"
+import img3 from "../assets/img3.jpg"
 
 export const Hero: React.FC = () => {
   return (
@@ -7,7 +11,8 @@ export const Hero: React.FC = () => {
       id="hero" 
       className="relative h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: "url('https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1920')",
+        backgroundImage: `url(${img3})`,
+        // backgroundImage: "url('https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1920')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

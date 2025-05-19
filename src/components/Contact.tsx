@@ -249,28 +249,30 @@ export const Contact: React.FC = () => {
                   className="bg-darkgray text-white hover:text-primary p-3 rounded-full transition-colors duration-300"
                   whileHover={{ scale: 1.1, boxShadow: "0 0 10px #00ff00" }}
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <rect
-                      x="2"
-                      y="2"
+                  <a href="https://www.instagram.com/_a_akhi?igsh=d3RqNW9tMm94cGNn">
+                    <svg
+                      xmlns="https://www.instagram.com/_a_akhi?igsh=d3RqNW9tMm94cGNn"
                       width="20"
                       height="20"
-                      rx="5"
-                      ry="5"
-                    ></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                  </svg>
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <rect
+                        x="2"
+                        y="2"
+                        width="20"
+                        height="20"
+                        rx="5"
+                        ry="5"
+                      ></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                  </a>
                 </motion.a>
                 {/* <motion.a
                   href="#"

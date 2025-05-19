@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
+import backgroundImg from '../assets/backgroundImg.jpg'
+import imgAbout from '../assets/image_1.jpg'
+import img2 from "../assets/img2.jpg"
+import img3 from "../assets/img3.jpg"
 
 interface Transformation {
   id: number;
@@ -21,26 +25,28 @@ export const Transformations: React.FC = () => {
   const transformations: Transformation[] = [
     {
       id: 1,
-      clientName: "Michael K.",
+      clientName: "Akhil K.",
       timeFrame: "12 Weeks",
-      beforeImage: "https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=600",
-      afterImage: "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=600",
+      beforeImage: img2,
+      // beforeImage: "https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=600",
+      // afterImage: "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=600",
+      afterImage: imgAbout,
       description: "Lost 30 pounds and gained significant muscle mass following my 12-week strength and conditioning program."
     },
     {
       id: 2,
       clientName: "Sarah T.",
       timeFrame: "16 Weeks",
-      beforeImage: "https://images.pexels.com/photos/5766933/pexels-photo-5766933.jpeg?auto=compress&cs=tinysrgb&w=600",
-      afterImage: "https://images.pexels.com/photos/1671217/pexels-photo-1671217.jpeg?auto=compress&cs=tinysrgb&w=600",
+      beforeImage: img3,
+      afterImage:img2,
       description: "Transformed her physique and improved her strength dramatically through consistent training and nutrition."
     },
     {
       id: 3,
       clientName: "David J.",
       timeFrame: "20 Weeks",
-      beforeImage: "https://images.pexels.com/photos/4793258/pexels-photo-4793258.jpeg?auto=compress&cs=tinysrgb&w=600",
-      afterImage: "https://images.pexels.com/photos/1756959/pexels-photo-1756959.jpeg?auto=compress&cs=tinysrgb&w=600",
+      beforeImage: img2,
+      afterImage:img3,
       description: "Went from skinny to muscular with a customized bulking program and nutrition plan."
     }
   ];

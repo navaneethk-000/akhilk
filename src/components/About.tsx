@@ -2,6 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Award, Flame, Clock, Users } from 'lucide-react';
+// import imgAbout from '../assets/image_1.jpg'
+import img2 from "../assets/img2.jpg"
+
+
 
 export const About: React.FC = () => {
   const [ref, inView] = useInView({
@@ -60,7 +64,7 @@ export const About: React.FC = () => {
           >
             <div className="rounded-lg overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/4498151/pexels-photo-4498151.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                src={img2}
                 alt="Professional Trainer" 
                 className="w-full h-auto object-cover rounded-lg"
               />
