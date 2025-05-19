@@ -1,24 +1,24 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import backgroundImg from '../assets/backgroundImg.jpg'
-import imgAbout from '../assets/image_1.jpg'
-import img2 from "../assets/img2.jpg"
-import img3 from "../assets/img3.jpg"
+import React from "react";
+import { motion } from "framer-motion";
+import backgroundImg from "../assets/backgroundImg.jpg";
+import imgAbout from "../assets/image_1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
 
 export const Hero: React.FC = () => {
   return (
-    <section 
-      id="hero" 
+    <section
+      id="hero"
       className="relative h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: `url(${img3})`,
+        backgroundImage: `url(${img2})`,
         // backgroundImage: "url('https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1920')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div className="absolute inset-0 hero-gradient"></div>
-      
+
       <div className="container mx-auto px-4 md:px-6 z-10 text-center flex items-center justify-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -26,17 +26,18 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="md:max-w-2xl"
         >
-          <motion.h1 
+          <motion.h1
             className="text-5xl md:text-7xl font-barlow font-bold mb-4 leading-tight"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            TRANSFORM YOUR <span className="text-primary">BODY</span><br/>
+            TRANSFORM YOUR <span className="text-primary">BODY</span>
+            <br />
             UNLEASH YOUR <span className="text-primary">POWER</span>
           </motion.h1>
-          
-          <motion.p 
+
+          <motion.p
             className="text-xl md:text-2xl mb-8 text-gray-300"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -44,7 +45,7 @@ export const Hero: React.FC = () => {
           >
             Expert personal training tailored to your goals and fitness level.
           </motion.p>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -64,7 +65,7 @@ export const Hero: React.FC = () => {
             >
               Book a Session
             </motion.button> */}
-            
+
             {/* <motion.button 
               className="btn-secondary text-lg mt-4 md:mt-0"
               whileHover={{ scale: 1.05 }}
@@ -75,15 +76,31 @@ export const Hero: React.FC = () => {
           </motion.div>
         </motion.div>
       </div>
-      
-      <motion.div 
+
+      <motion.div
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.2, duration: 0.8, repeat: Infinity, repeatType: 'reverse' }}
+        transition={{
+          delay: 1.2,
+          duration: 0.8,
+          repeat: Infinity,
+          repeatType: "reverse",
+        }}
       >
-        <svg className="w-6 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        <svg
+          className="w-6 h-10 text-white"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 14l-7 7m0 0l-7-7m7 7V3"
+          />
         </svg>
       </motion.div>
     </section>
