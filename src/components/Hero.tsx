@@ -37,9 +37,9 @@ export const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            TRANSFORM YOUR <span className="text-primary">BODY</span>
+            TRANSFORM YOUR <span className="text-[#E53935]">BODY</span>
             <br />
-            UNLEASH YOUR <span className="text-primary">POWER</span>
+            UNLEASH YOUR <span className="text-[#E53935]">POWER</span>
           </motion.h1>
 
           <motion.p

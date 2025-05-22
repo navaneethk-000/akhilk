@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-title::after {
   content: "";
-  @apply absolute -bottom-2 left-0 w-1/2 h-1 bg-primary;
+  @apply absolute -bottom-2 left-0 w-1/2 h-1 bg-[#E53935];
 }
 
 .service-card {
@@ -33,11 +33,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  @apply bg-primary text-black font-bold py-3 px-6 rounded-md transition-all duration-300 hover:shadow-neon-green;
+  @apply bg-[#E53935] text-black font-bold py-3 px-6 rounded-md transition-all duration-300 hover:shadow-neon-green;
 }
 
 .btn-secondary {
-  @apply bg-transparent border-2 border-primary text-primary font-bold py-3 px-6 rounded-md transition-all duration-300 hover:shadow-neon-green hover:bg-primary hover:text-black;
+  @apply bg-transparent border-2 border-[#E53935] text-[#E53935] font-bold py-3 px-6 rounded-md transition-all duration-300 hover:shadow-neon-green hover:bg-[#E53935] hover:text-black;
 }
 
 .pricing-card {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-card.highlight {
-  @apply border-primary;
+  @apply border-[#E53935];
 }
 
 .testimonial-card {
@@ -53,12 +53,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-  @apply relative text-gray-300 text-lg font-medium hover:text-primary transition-colors duration-300;
+  @apply relative text-gray-300 text-lg font-medium hover:text-[#E53935] transition-colors duration-300;
 }
 
 .nav-link::after {
   content: "";
-  @apply absolute left-0 -bottom-2 w-0 h-0.5 bg-primary transition-all duration-300;
+  @apply absolute left-0 -bottom-2 w-0 h-0.5 bg-[#E53935] transition-all duration-300;
+  /* @apply absolute left-0 -bottom-2 w-0 h-0.5 bg-primary transition-all duration-300; */
 }
 
 .nav-link:hover::after, .nav-link.active::after {
@@ -66,7 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link.active {
-  @apply text-primary;
+  @apply text-[#E53935];
+  /* @apply text-primary; */
 }
 
 /* Custom animation classes */
@@ -84,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Form styles */
 .input-field {
-  @apply bg-secondary border-0 rounded-md p-3 text-white w-full focus:ring-2 focus:ring-primary focus:outline-none;
+  @apply bg-secondary border-0 rounded-md p-3 text-white w-full focus:ring-2 focus:ring-[#E53935] focus:outline-none;
 }
 
 /* Scroll styles */
@@ -97,5 +99,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-primary rounded-full;
+  @apply bg-[#E53935] rounded-full;
 }

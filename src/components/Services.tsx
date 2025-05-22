@@ -19,10 +19,10 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description, ind
       transition={{ delay: 0.1 * index, duration: 0.4 }}
       whileHover={{ 
         y: -10, 
-        boxShadow: '0 0 15px rgba(0, 255, 0, 0.4)'
+        boxShadow: '0 0 15px #E53935'
       }}
     >
-      <div className="mb-4 text-primary">{icon}</div>
+      <div className="mb-4 text-[#E53935]">{icon}</div>
       <h3 className="text-2xl font-bold mb-3">{title}</h3>
       <p className="text-gray-400 mb-6">{description}</p>
       <motion.div 

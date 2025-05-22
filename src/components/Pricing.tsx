@@ -120,7 +120,7 @@ export const Pricing: React.FC = () => {
               className={`pricing-card ${plan.highlight ? 'highlight' : ''}`}
               whileHover={{ 
                 y: -10, 
-                boxShadow: plan.highlight ? '0 0 20px rgba(0, 255, 0, 0.4)' : '0 10px 25px rgba(0,0,0,0.2)' 
+                // boxShadow: plan.highlight ? '0 0 20px rgba(0, 255, 0, 0.4)' : '0 10px 25px rgba(0,0,0,0.2)' 
               }}
             >
               {/* {plan.highlight && (
@@ -131,7 +131,7 @@ export const Pricing: React.FC = () => {
                 </div>
               )} */}
               
-              <h3 className={`text-2xl font-bold mb-2 ${plan.highlight ? 'text-primary' : 'text-white'}`}>
+              <h3 className={`text-2xl font-bold mb-2 ${plan.highlight ? 'text-[#E53935]' : 'text-white'}`}>
                 {plan.name}
               </h3>
               
@@ -151,7 +151,7 @@ export const Pricing: React.FC = () => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.5 + (index * 0.1) }}
                   >
-                    <Check size={18} className="text-primary mt-1 mr-2 flex-shrink-0" />
+                    <Check size={18} className="text-[#E53935] mt-1 mr-2 flex-shrink-0" />
                     <span className="text-gray-300">{feature}</span>
                   </motion.li>
                 ))}
@@ -161,7 +161,7 @@ export const Pricing: React.FC = () => {
                 className={plan.highlight ? "btn-primary w-full" : "btn-secondary w-full"}
                 whileHover={{ 
                   scale: 1.03, 
-                  boxShadow: plan.highlight ? '0 0 15px #00ff00' : '0 0 5px #00ff00' 
+                  boxShadow: plan.highlight ? '0 0 15px #E53935' : '0 0 5px #E53935' 
                 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -184,7 +184,7 @@ export const Pricing: React.FC = () => {
           </p>
           <motion.button
             className="btn-primary"
-            whileHover={{ scale: 1.05, boxShadow: '0 0 10px #00ff00' }}
+            whileHover={{ scale: 1.05, boxShadow: '0 0 10px #E53935' }}
             whileTap={{ scale: 0.95 }}
           >
             Request Custom Plan

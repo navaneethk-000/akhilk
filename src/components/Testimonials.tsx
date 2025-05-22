@@ -105,7 +105,7 @@ export const Testimonials: React.FC = () => {
                   <Star 
                     key={i} 
                     size={20} 
-                    className={i < testimonial.rating ? "text-primary fill-primary inline-block mr-1" : "text-gray-500 inline-block mr-1"} 
+                    className={i < testimonial.rating ? "text-[#E53935] fill-[#E53935] inline-block mr-1" : "text-gray-500 inline-block mr-1"} 
                   />
                 ))}
               </div>
@@ -122,7 +122,7 @@ export const Testimonials: React.FC = () => {
                 />
                 <div>
                   <h4 className="font-bold text-white">{testimonial.name}</h4>
-                  <p className="text-primary text-sm">{testimonial.position}</p>
+                  <p className="text-[#E53935] text-sm">{testimonial.position}</p>
                 </div>
               </div>
             </motion.div>
@@ -137,7 +137,7 @@ export const Testimonials: React.FC = () => {
         >
           <motion.button
             className="btn-secondary"
-            whileHover={{ scale: 1.05, boxShadow: '0 0 10px #00ff00' }}
+            whileHover={{ scale: 1.05, boxShadow: '0 0 10px #E53935' }}
             whileTap={{ scale: 0.95 }}
           >
             View All Testimonials

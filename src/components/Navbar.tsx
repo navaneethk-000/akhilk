@@ -72,7 +72,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-2"
             whileHover={{ scale: 1.05 }}
           >
-            <Dumbbell size={32} className="text-primary" />
+            <Dumbbell size={32} className="text-[#E53935]" />
             <span className="font-barlow text-2xl font-bold">AK</span>
           </motion.div>
 

@@ -173,7 +173,7 @@ export const Contact: React.FC = () => {
             <div className="space-y-8">
               <div className="flex items-start">
                 <div className="bg-darkgray p-3 rounded-lg mr-4">
-                  <Phone size={20} className="text-primary" />
+                  <Phone size={20} className="text-[#E53935]" />
                 </div>
                 <div>
                   <h4 className="font-bold mb-1">Phone</h4>
@@ -183,7 +183,7 @@ export const Contact: React.FC = () => {
 
               <div className="flex items-start">
                 <div className="bg-darkgray p-3 rounded-lg mr-4">
-                  <Mail size={20} className="text-primary" />
+                  <Mail size={20} className="text-[#E53935]" />
                 </div>
                 <div>
                   <h4 className="font-bold mb-1">Email</h4>
@@ -193,7 +193,7 @@ export const Contact: React.FC = () => {
 
               <div className="flex items-start">
                 <div className="bg-darkgray p-3 rounded-lg mr-4">
-                  <MapPin size={20} className="text-primary" />
+                  <MapPin size={20} className="text-[#E53935]" />
                 </div>
                 <div>
                   <h4 className="font-bold mb-1">Location</h4>
@@ -207,7 +207,7 @@ export const Contact: React.FC = () => {
 
               <div className="flex items-start">
                 <div className="bg-darkgray p-3 rounded-lg mr-4">
-                  <Clock size={20} className="text-primary" />
+                  <Clock size={20} className="text-[#E53935]" />
                 </div>
                 <div>
                   <h4 className="font-bold mb-1">Hours</h4>
@@ -246,8 +246,8 @@ export const Contact: React.FC = () => {
                 </motion.a> */}
                 <motion.a
                   href="#"
-                  className="bg-darkgray text-white hover:text-primary p-3 rounded-full transition-colors duration-300"
-                  whileHover={{ scale: 1.1, boxShadow: "0 0 10px #00ff00" }}
+                  className="bg-darkgray text-white hover:text-[#E53935] p-3 rounded-full transition-colors duration-300"
+                  whileHover={{ scale: 1.1, boxShadow: "0 0 10px #E53935" }}
                 >
                   <a href="https://www.instagram.com/_a_akhi?igsh=d3RqNW9tMm94cGNn">
                     <svg
@@ -297,8 +297,8 @@ export const Contact: React.FC = () => {
                 </motion.a> */}
                 <motion.a
                   href="#"
-                  className="bg-darkgray text-white hover:text-primary p-3 rounded-full transition-colors duration-300"
-                  whileHover={{ scale: 1.1, boxShadow: "0 0 10px #00ff00" }}
+                  className="bg-darkgray text-white hover:text-[#E53935] p-3 rounded-full transition-colors duration-300"
+                  whileHover={{ scale: 1.1, boxShadow: "0 0 10px #E53935" }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

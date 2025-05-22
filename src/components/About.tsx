@@ -43,10 +43,10 @@ export const About: React.FC = () => {
   };
 
   const stats = [
-    { icon: <Award size={32} className="text-primary mb-3" />, value: '5+', label: 'Years Experience' },
+    { icon: <Award size={32} className="text-[#E53935] mb-3" />, value: '5+', label: 'Years Experience' },
     { icon: <Flame size={32} className="text-accent mb-3" />, value: '500+', label: 'Clients Transformed' },
-    { icon: <Clock size={32} className="text-accent2 mb-3" />, value: '2,000+', label: 'Training Hours' },
-    { icon: <Users size={32} className="text-primary mb-3" />, value: '25+', label: 'Expert Certifications' },
+    { icon: <Clock size={32} className="text-[#E53935] mb-3" />, value: '2,000+', label: 'Training Hours' },
+    { icon: <Users size={32} className="text-[#E53935] mb-3" />, value: '25+', label: 'Expert Certifications' },
   ];
 
   return (
@@ -71,13 +71,14 @@ export const About: React.FC = () => {
             <div className="rounded-lg overflow-hidden">
               <img 
                 
-                src={img2}
+                // src={img2}
+                src={image_1}
                 
                 alt="Professional Trainer" 
                 className="w-full h-auto object-cover rounded-lg"
               />
             </div>
-            <div className="absolute -bottom-5 -right-5 w-40 h-40 border-4 border-primary rounded-lg z-10 hidden md:block"></div>
+            <div className="absolute -bottom-5 -right-5 w-40 h-40 border-4 border-[#E53935] rounded-lg z-10 hidden md:block"></div>
           </motion.div>
           
           <motion.div
@@ -86,7 +87,7 @@ export const About: React.FC = () => {
             animate={inView ? "visible" : "hidden"}
             transition={{ delay: 0.2 }}
           >
-            <h3 className="text-3xl font-bold mb-4 text-primary">Akhil K</h3>
+            <h3 className="text-3xl font-bold mb-4 text-[#E53935]">Akhil K</h3>
             <p className="text-xl font-barlow font-bold mb-3">Fitness Coach & Nutrition Expert</p>
             <p className="text-gray-300 mb-6 leading-relaxed">
               {/* With over a decade of experience in fitness training and nutrition counseling, 

@@ -126,8 +126,8 @@ export const Footer: React.FC = () => {
       
       <motion.button
         onClick={scrollToTop}
-        className="fixed bottom-8 right-8 bg-primary text-black p-3 rounded-full shadow-lg"
-        whileHover={{ scale: 1.1, boxShadow: '0 0 15px #00ff00' }}
+        className="fixed bottom-8 right-8 bg-[#E53935] text-black p-3 rounded-full shadow-lg"
+        whileHover={{ scale: 1.1, boxShadow: '0 0 15px #E53935' }}
         whileTap={{ scale: 0.9 }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
