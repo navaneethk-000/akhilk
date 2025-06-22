@@ -1,14 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import backgroundImg from "../assets/backgroundImg.jpg";
-import imgAbout from "../assets/image_1.jpg";
-import img2 from "../assets/img2.jpg";
-import img3 from "../assets/img3.jpg";
-import img15 from '../assets/img15.png'
-import img11 from '../assets/img11.jpg'
-import img12 from '../assets/img12.jpg'
-import img121 from '../assets/img121.jpg'
-import img14 from '../assets/img14.jpg'
+
+import img15 from "../assets/img15.png";
 
 export const Hero: React.FC = () => {
   return (
@@ -17,7 +10,7 @@ export const Hero: React.FC = () => {
       className="relative h-screen flex items-center justify-center overflow-hidden"
       style={{
         backgroundImage: `url(${img15})`,
-        // backgroundImage: "url('https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1920')",
+
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -55,30 +48,7 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-          >
-            {/* <motion.button 
-              className="btn-primary text-lg mr-4 "
-              whileHover={{ scale: 1.05, boxShadow: '0 0 15px #00ff00' }}
-              whileTap={{ scale: 0.95 }}
-              animate={{ 
-                boxShadow: ['0 0 0px #00ff00', '0 0 10px #00ff00', '0 0 0px #00ff00'],
-              }}
-              transition={{ 
-                repeat: Infinity, 
-                duration: 2,
-              }}
-            >
-              Book a Session
-            </motion.button> */}
-
-            {/* <motion.button 
-              className="btn-secondary text-lg mt-4 md:mt-0"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Learn More
-            </motion.button> */}
-          </motion.div>
+          ></motion.div>
         </motion.div>
       </div>
 

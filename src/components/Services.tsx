@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Users, User, Utensils, ArrowRight } from "lucide-react";
+import { Users, User, Utensils } from "lucide-react";
 
 interface ServiceCardProps {
   icon: React.ReactNode;

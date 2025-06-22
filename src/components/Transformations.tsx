@@ -9,8 +9,8 @@ import athul2before from "../assets/Athul2_before.jpg";
 import athul2after from "../assets/Athul2_after.jpg";
 import navaneethdkBefore from "../assets/navaneethdk_before.jpg";
 import navaneethdkAfter from "../assets/navaneethdk_after.jpg";
-import sunithBefore from '../assets/sunithpk_before.jpg'
-import sunithAfter from '../assets/sunithpk_after.jpg'
+import sunithBefore from "../assets/sunithpk_before.jpg";
+import sunithAfter from "../assets/sunithpk_after.jpg";
 
 interface Transformation {
   id: number;
