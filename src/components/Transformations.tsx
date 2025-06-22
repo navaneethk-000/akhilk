@@ -2,21 +2,15 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { ChevronRight, ChevronLeft } from "lucide-react";
-import img2 from "../assets/img2.jpg";
-import img3 from "../assets/img3.jpg";
-import backgroundImg from "../assets/backgroundImg.jpg";
-import imgAbout from "../assets/image_1.jpg";
-import img15 from "../assets/img15.png";
-import img11 from "../assets/img11.jpg";
-import img12 from "../assets/img12.jpg";
-import img121 from "../assets/img121.jpg";
-import img14 from "../assets/img14.jpg";
+
 import athul1After from "../assets/Athul1_after.jpg";
 import athul1Before from "../assets/Athul1_before.jpg";
 import athul2before from "../assets/Athul2_before.jpg";
 import athul2after from "../assets/Athul2_after.jpg";
 import navaneethdkBefore from "../assets/navaneethdk_before.jpg";
 import navaneethdkAfter from "../assets/navaneethdk_after.jpg";
+import sunithBefore from '../assets/sunithpk_before.jpg'
+import sunithAfter from '../assets/sunithpk_after.jpg'
 
 interface Transformation {
   id: number;
@@ -55,6 +49,15 @@ export const Transformations: React.FC = () => {
       timeFrame: "20 Weeks",
       beforeImage: athul2before,
       afterImage: athul2after,
+      description:
+        "Achieved a muscular physique through a customized bulking program and a strategic nutrition plan",
+    },
+    {
+      id: 4,
+      clientName: "Sunith PK",
+      timeFrame: "20 Weeks",
+      beforeImage: sunithBefore,
+      afterImage: sunithAfter,
       description:
         "Achieved a muscular physique through a customized bulking program and a strategic nutrition plan",
     },
