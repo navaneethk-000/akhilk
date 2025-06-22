@@ -73,7 +73,7 @@ export const Navbar: React.FC = () => {
             whileHover={{ scale: 1.05 }}
           >
             <Dumbbell size={32} className="text-[#E53935]" />
-            <span className="font-barlow text-2xl font-bold">AK</span>
+            <span className="font-barlow text-2xl font-bold">AK FITNESS</span>
           </motion.div>
 
           {/* Desktop Navigation */}

@@ -74,7 +74,7 @@ export const Contact: React.FC = () => {
               <div>
                 <h4 className="font-semibold">Location</h4>
                 <p className="text-gray-300">
-                  Pranavam, (PO) Edakkad
+                  Edakkad
                   <br />
                   Kannur, Kerala
                 </p>
