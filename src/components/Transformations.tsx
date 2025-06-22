@@ -6,12 +6,17 @@ import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
 import backgroundImg from "../assets/backgroundImg.jpg";
 import imgAbout from "../assets/image_1.jpg";
-import img15 from '../assets/img15.png'
-import img11 from '../assets/img11.jpg'
-import img12 from '../assets/img12.jpg'
-import img121 from '../assets/img121.jpg'
-import img14 from '../assets/img14.jpg'
-
+import img15 from "../assets/img15.png";
+import img11 from "../assets/img11.jpg";
+import img12 from "../assets/img12.jpg";
+import img121 from "../assets/img121.jpg";
+import img14 from "../assets/img14.jpg";
+import athul1After from "../assets/Athul1_after.jpg";
+import athul1Before from "../assets/Athul1_before.jpg";
+import athul2before from "../assets/Athul2_before.jpg";
+import athul2after from "../assets/Athul2_after.jpg";
+import navaneethdkBefore from "../assets/navaneethdk_before.jpg";
+import navaneethdkAfter from "../assets/navaneethdk_after.jpg";
 
 interface Transformation {
   id: number;
@@ -28,30 +33,30 @@ export const Transformations: React.FC = () => {
   const transformations: Transformation[] = [
     {
       id: 1,
-      clientName: "Akhil K.",
-      timeFrame: "12 Weeks",
-      beforeImage: img2,
-      afterImage: img3,
+      clientName: "Navaneeth DK",
+      timeFrame: "20 Weeks",
+      beforeImage: navaneethdkBefore,
+      afterImage: navaneethdkAfter,
       description:
         "Lost 30 pounds and gained significant muscle mass following my 12-week strength and conditioning program.",
     },
     {
       id: 2,
-      clientName: "Sarah T.",
+      clientName: "Athul",
       timeFrame: "16 Weeks",
-      beforeImage: backgroundImg,
-      afterImage: img11,
+      beforeImage: athul1Before,
+      afterImage: athul1After,
       description:
         "Transformed her physique and improved her strength dramatically through consistent training and nutrition.",
     },
     {
       id: 3,
-      clientName: "David J.",
+      clientName: "Athul",
       timeFrame: "20 Weeks",
-      beforeImage: img12,
-      afterImage: img15,
+      beforeImage: athul2before,
+      afterImage: athul2after,
       description:
-        "Went from skinny to muscular with a customized bulking program and nutrition plan.",
+        "Achieved a muscular physique through a customized bulking program and a strategic nutrition plan",
     },
   ];
 
