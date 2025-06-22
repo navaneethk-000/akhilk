@@ -41,7 +41,7 @@ export const Transformations: React.FC = () => {
       beforeImage: athul1Before,
       afterImage: athul1After,
       description:
-        "Transformed her physique and improved her strength dramatically through consistent training and nutrition.",
+        "Transformed physique and improved strength dramatically through consistent training and nutrition.",
     },
     {
       id: 3,
